@@ -24,3 +24,6 @@ CMD java ${JAVA_OPTS} -Dserver.port=${SERVER_PORT} -Djava.security.egd=file:/dev
 seguidamente debemos copiar con cp el jar en /binaries/price-service.mysql
 por ultimo compilamos la imagen *captura de pantalla subida* se realiza con docker build -t y el servicio que vayamos a usar, en mi caso he hecho la captura con priceservicemysql
 
+una vez hecho todo eso tenemos que crear el docker-compose, en el interior del archivo encontraremos el código que tenemos que definir para que todo funcione correctamente. iniciarlo con version: "2". de nuevo ojo con los puertos. 
+
+

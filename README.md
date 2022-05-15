@@ -26,4 +26,5 @@ por ultimo compilamos la imagen *captura de pantalla subida* se realiza con dock
 
 una vez hecho todo eso tenemos que crear el docker-compose, en el interior del archivo encontraremos el código que tenemos que definir para que todo funcione correctamente. iniciarlo con version: "2". de nuevo ojo con los puertos. 
 
+con docker-compose up seguidamente de docker-ps veremos si los pasos que hemos ido realizando se ha hecho correctamente.
 
